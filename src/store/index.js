@@ -22,7 +22,6 @@ export default createStore({
       state.toast.timeout = data.timeout || TIMEOUT
       state.toast.message = data.message;
       state.toast.color = data.color;
-      console.log(data)
     },
     closeToast (state) {
       state.toast.opened = false
